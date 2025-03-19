@@ -1,0 +1,48 @@
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, 0.5);
+    padding: 15px 18px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBox {
+    width: 500px;
+    margin-right: 100px;
+    border: none;
+    background-color:#F0F0F1 ;
+    padding: 18px 10px;
+    border-radius: 10px;
+
+}
+.loginContainer{
+    color: gray;
+    padding: 10px 18px;
+    border: 1px solid gray;
+    margin: 0 15px ;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius:10px ;
+}
+.userBasket{
+    color: gray;
+     cursor: pointer;
+}
+
+img{
+    width: 120px;
+}
