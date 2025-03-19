@@ -1,0 +1,21 @@
+.menuItem{
+    color: gray;
+    cursor: pointer;
+    position: relative;
+    padding: 5px 0;
+    text-align: end;
+
+}
+.menuItem::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+.menuItem:hover::before{
+    width: 100%;
+}
