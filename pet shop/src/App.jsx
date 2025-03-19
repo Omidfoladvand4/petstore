@@ -30,7 +30,10 @@ function App() {
         />
       ))}
        </div>
-   
+       <div className="adsContainer">
+        <img src="../../public/ads1.jpg" alt="" />
+        <img src="../../public/ads2.jpg" alt="" />
+       </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 20px;
-    width: calc(20% - 20px);
+    width: calc(20% - 40px);
 }
 
 .productDetails {
@@ -37,7 +37,7 @@
 }
 
 .price {
-    color: #138a6ae3;
+    color: #ffffffff;
     font-size: 16px;
     margin-left: 10px;
 }
@@ -46,8 +46,8 @@
     border: none;
     outline: none;
     padding: 10px 18px;
-    background: #417178;
-    color: #ffffff;
+    color: #417178;
+    background: #ffffff;
     cursor: pointer;
     transition: all 0.5s ease;
     opacity: 0.9;
@@ -58,4 +58,5 @@
     transform: scale(0.95);
     opacity: 1;
     background: #218797;
+    color: #ffffffff;
 }

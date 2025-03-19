@@ -22,3 +22,11 @@
     align-self: end;
     margin: 0 30px;
 }
+.adsContainer{
+    width: 80%;
+    margin-top: 15px;
+}
+.adsContainer img{
+    width: 48%;
+    border-radius: 30px;
+}
