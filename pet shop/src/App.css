@@ -10,7 +10,7 @@
 }
 .productsContainer{
     width: 100%;
-    background-color: #138a6a83;
+    background-color:#ffffffff;
     display: flex;
     padding: 5% 0;
    
@@ -19,12 +19,13 @@
     color: black !important;
 }
  h1 ,  h2{
+    margin-top: 5%;
     align-self: end;
     margin: 0 30px;
 }
 .adsContainer{
     width: 80%;
-    margin-top: 15px;
+    margin: 25px;
 }
 .adsContainer img{
     width: 48%;
