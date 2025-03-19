@@ -1,0 +1,9 @@
+.sliderContainer{
+    width: 80%;
+    margin: 15px auto;
+}
+.sliderImage{
+    width: 100%;
+    object-fit: cover;
+
+}
